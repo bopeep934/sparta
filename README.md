@@ -17,7 +17,7 @@
 
 ## 3️⃣ 개발 환경
 - IntellyJ IDEA
-- JAVA 
+- JDK 17
 - corretto 17.0.3
 - Gradle
 
