@@ -3,9 +3,8 @@ import java.util.*;
 ///주석 추가할게요.
 /// 다시 테스트할게요.
 public class Calculator {
-
     int result;//결과값
-    ArrayList<Integer> resultArray =new ArrayList<Integer>();
+    private ArrayList<Integer> resultArray = new ArrayList<Integer>();
 
     int init=0;//배열 표시 변수
 
