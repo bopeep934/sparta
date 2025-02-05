@@ -2,7 +2,7 @@ package com.example;
 
 import java.util.Arrays;
 
-public class Solution {
+public  class Solution {
     public String solution(String s) {
         String answer = "";
         char[] a=s.toCharArray();
@@ -16,5 +16,12 @@ public class Solution {
         answer=String.valueOf(b);
 
         return answer;
+
+        //다른분 코드 정답 1)
+        //return Stream.of(s.split("")).sorted(Comparator.reverseOrder()).collect(Collectors.joining()); *s=String s
+        //코드 정답 2)
+        // return new StringBuilder(new String(a)).reverse().toString();  *a=char 배열이름
+        //
     }
+
 }
