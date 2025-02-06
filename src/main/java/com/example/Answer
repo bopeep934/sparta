@@ -1,0 +1,12 @@
+<solution 34.문자열 내림차순으로 정렬하기>
+다른분 코드 정답 1)
+- return Stream.of(s.split("")).sorted(Comparator.reverseOrder()).collect(Collectors.joining()); *s=String s
+다른분 코드 정답 2)
+- return new StringBuilder(new String(a)).reverse().toString();  *a=char 배열이름
+
+<solution 35.부족한 금액 계산하기>
+다른 분 코드 정답 1)
+- return Math.max(price * (count * (count + 1) / 2) - money, 0);
+다른 분 코드 정답 2)
+-  answer = (long)price*count*(count+1)/2 - money;
+     return answer<=0?0:answer;
